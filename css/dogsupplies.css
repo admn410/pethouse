@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	width:100%;
+	/* height:106px; */
+	height:156px;
+	/* text-align: center; */
+}
+
+.middle{
+	width:100%;
+	/* height: 598px; */
+	   
+}	
+
+/* .midd_bottom{
+	width:100%;
+	height: 270px;
+	
+} */
+
+
+.head_logo{
+	width:1280px;
+	height:79px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	margin: 37px 0 0 28px;
+}
+
+.midd_top{
+	width: 100%;
+	height:51px;
+    border: 1px solid #E0E0E0;
+}
+
+.nav{
+		text-align: center;
+          width: 1280px;
+          height: 50px;
+		  margin: 0 auto;
+		  
+
+ }
+
+.nav_left{
+	text-align: center;
+	font-size: 15px;
+	font-family:微软雅黑, Arial, 宋体, sans-serif;	
+}
+
+.nav_left  ul{
+	text-align: center;
+	padding-top:25px;
+}
+
+.nav_left  li{
+	line-height: 50px;
+	list-style-type: none;
+	float: left;
+	padding: 0 1.9em;
+	background: #fff;	
+	color: #9e9e9e;
+	font-weight: 700;
+	padding-right: 45px;
+}
+
+.footer_DogApparel p{
+	font-size: 30px;
+	text-align: center;
+	height: 100px;
+}
+
+
+.item{
+	/* width: 100%; */
+	display: table-cell;
+	border: 1px solid #f40;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	
+	/* position: absolute; */
+	/* left:20%; */
+
+}
+.item .pic { float:left;margin-right:10px;width:300px;height:300px;}  
+.item .content {float:left;width:300px;font-size: 30px;}
